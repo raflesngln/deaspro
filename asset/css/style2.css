@@ -1,0 +1,8 @@
+#notugas,#tgl,#tgl2,#tgl3,#tgl4,#tgl5{
+	width:45%;
+}
+
+.main-content{background-color:#F0F0F0}
+#status,#asuransi{width:160px;}
+#bln, #thn,#nost{ height: 35px; width: 90px}
+

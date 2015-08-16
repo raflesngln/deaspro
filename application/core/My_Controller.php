@@ -1,0 +1,35 @@
+
+    <?php  
+    class Member_contoller extends CI_Controller
+	{  
+function __construct()
+	{ 
+	parent::__construct();
+	
+	if(!$this->acces->is_login())
+	{
+		redirect('member/login');
+	}
+	
+	}
+	
+///////////////////////////////////////////////////////////////////////////////////////////
+	function is_login()
+	{    
+		$this->access->is_login();
+     }  
+	 
+}
+/////////////////////////////////////////////////////////////////////////////////////////		
+		class MY_Controller extends CI_controller
+	{
+		
+		function __construct()
+	{ 
+	parent::__construct();
+	}
+		
+}	
+/////////////////////////////////////////////////////////////////////////////////////////		
+  
+    
